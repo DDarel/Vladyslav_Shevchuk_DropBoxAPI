@@ -7,8 +7,8 @@ It does:
 3. Deletes created Student job
 
 Structure of project
-- Features/HomeWork.feature - testing scenario
-- bin/Debug/net6.0/Homework.dll - executable file
+- Features/Task.feature - testing scenario
+- bin/Debug/net6.0/CucumberTest.dll - executable file
 
 Running the program:
 - simple run in CLI with dotnet test:

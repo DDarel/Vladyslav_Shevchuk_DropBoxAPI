@@ -4,17 +4,17 @@
 Scenario: Upload
 Given Output User info
 When Upload file
-Then Show succes message
+Then Check file is uploaded
 
 @2cecond
 Scenario: GetFileMetaData
-Given CheckFileAvailable
+Given Upload file
 When GetMetaData
 Then ShowMetaData
 
 @3third
 Scenario: Delete file
-Given CheckFileAvailable
+Given Upload file
 When DeleteFile
-Then Show delete succes message
+Then Check file is deleted
 
